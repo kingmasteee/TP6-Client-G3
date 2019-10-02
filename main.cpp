@@ -33,7 +33,7 @@ int main(void)
 		//Seteamos primero la pagina donde nos vamos a conectar.
 		curl_easy_setopt(curl, CURLOPT_URL, path.c_str());
 
-		//Le decimos a cURL que imprima todos los mensajes que se envían entre cliente y servidor.
+		//Le decimos a cURL que imprima todos los mensajes que se envían entre cliente y servidor. 
 		curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
 
 		// Le decimos a cURL que trabaje con HTTP.
